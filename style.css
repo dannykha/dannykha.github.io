@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu monospace;", monospace;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
