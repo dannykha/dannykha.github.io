@@ -123,9 +123,12 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a Computer Engineering student at the University of Washington Bothell.
-            Constantly researching about technological advancements and incredibly
+            I am currently a Computer Engineering student at the University of Washington Bothell.
+            Constantly researching about a wide spread of technologies and incredibly
             interested in becoming a full stack developer.
+          </p>
+          <p>
+            Upcoming new grad Software Engineer for 2023 at Visa.
           </p>
         </div>
 
