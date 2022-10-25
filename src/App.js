@@ -19,7 +19,7 @@ function App() {
             <Link  to="/contact">Contact</Link>
           </li>
         </ul>
-        <Routes>
+      <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
