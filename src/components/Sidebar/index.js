@@ -11,8 +11,8 @@ import {
   faUser,
   faEnvelope,
   faBars,
-  faHammer,
   faClose,
+  faCat,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -52,11 +52,11 @@ const Sidebar = () => {
         </NavLink>
         <NavLink
           activeclassname="active"
-          className="hobbies-link"
-          to="/hobbies"
+          className="cats-link"
+          to="/cats"
           onClick={() => setShowNav(false)}
           >
-            <FontAwesomeIcon icon={faHammer} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faCat} color="#4d4d4e" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}

@@ -90,6 +90,12 @@
       }
     }
 
+    a.cats-link {
+      &:after {
+        content: 'CATS';
+      }
+    }
+
     a.active {
       svg {
         color: #ffd700;
